@@ -20,7 +20,7 @@
 
 # In[1]:
 
-wordsList = ['cat', 'elephant', 'rat', 'rat', 'cat']
+wordsList = ['cat', 'elephant', 'rat', 'rat']
 wordsRDD = sc.parallelize(wordsList, 4)
 # Print out the type of wordsRDD
 print type(wordsRDD)
